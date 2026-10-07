@@ -1,0 +1,10 @@
+apiVersion: solution.sap/v1
+kind: Solution
+
+metadata:
+  name: e2e-testing-agent-80838
+  version: 1.0.0
+  description: A hello world end-to-end testing AI agent built with the A2A protocol in Python on SAP BTP.
+
+assets:
+  - ref: ./assets/e2e-testing-agent/asset.yaml
